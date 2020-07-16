@@ -9,8 +9,8 @@
 package feed
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 )
 
 // Type of operation last performed.

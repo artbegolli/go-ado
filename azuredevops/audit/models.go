@@ -9,8 +9,8 @@
 package audit
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 )
 
 // Defines all the categories an AuditAction can be

@@ -9,8 +9,8 @@
 package cix
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops/core"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/core"
 )
 
 type BuildFrameworkDetectionType string

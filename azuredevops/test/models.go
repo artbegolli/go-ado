@@ -9,11 +9,11 @@
 package test
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/core"
+	"github.com/artbegolli/go-ado/azuredevops/system"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/core"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/system"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )
 
 type AbortTestRunRequest struct {

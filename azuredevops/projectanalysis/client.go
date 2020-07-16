@@ -10,11 +10,12 @@ package projectanalysis
 
 import (
 	"context"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/google/uuid"
 )
 
 var ResourceAreaId, _ = uuid.Parse("7658fa33-b1bf-4580-990f-fac5896773d3")

@@ -10,11 +10,12 @@ package profile
 
 import (
 	"context"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/google/uuid"
 )
 
 var ResourceAreaId, _ = uuid.Parse("8ccfef3d-2b87-4e99-8ccb-66e343d2daa8")

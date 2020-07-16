@@ -9,8 +9,8 @@
 package commerce
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 )
 
 // The subscription account namespace. Denotes the 'category' of the account.

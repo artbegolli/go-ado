@@ -72,10 +72,10 @@ func (t *Time) UnmarshalJSON(b []byte) error {
 				// returns default dates in a format that is invalid for a time.Time. The
 				// correct value would have a 'z' at the end to represent utc. We are going
 				// to ignore this error, and set the value to the default time.Time value.
-				// https://github.com/microsoft/azure-devops-go-api/issues/17
+				// https://github.com/artbegolli/go-ado/issues/17
 				err = nil
 			} else {
-				// workaround for bug https://github.com/microsoft/azure-devops-go-api/issues/59
+				// workaround for bug https://github.com/artbegolli/go-ado/issues/59
 				// policy.CreatePolicyConfiguration returns an invalid date format of form
 				// "2006-01-02T15:04:05.999999999"
 				var innerError error

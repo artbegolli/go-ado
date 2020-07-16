@@ -9,9 +9,9 @@
 package universal
 
 import (
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/packagingshared"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/packagingshared"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 )
 
 // Package version metadata for a Universal package

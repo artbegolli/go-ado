@@ -9,11 +9,11 @@
 package git
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/core"
+	"github.com/artbegolli/go-ado/azuredevops/policy"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/core"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/policy"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )
 
 type AssociatedWorkItem struct {

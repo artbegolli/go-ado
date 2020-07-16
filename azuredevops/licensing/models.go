@@ -9,9 +9,9 @@
 package licensing
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/accounts"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/accounts"
 	"github.com/microsoft/azure-devops-go-api/azuredevops/commerce"
 	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )

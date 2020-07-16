@@ -9,9 +9,9 @@
 package nuget
 
 import (
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/packagingshared"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/packagingshared"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 )
 
 // Data required to unlist or relist multiple package versions. Pass this while performing NuGetBatchOperationTypes.List batch operation.

@@ -9,9 +9,9 @@
 package contributions
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/gallery"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/gallery"
 )
 
 // Representation of a ContributionNode that can be used for serialized to clients.

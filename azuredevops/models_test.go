@@ -5,9 +5,10 @@ package azuredevops
 
 import (
 	"encoding/json"
-	"github.com/google/uuid"
 	"testing"
 	"time"
+
+	"github.com/google/uuid"
 )
 
 func TestModels_Unmarshal_Time(t *testing.T) {
@@ -33,7 +34,7 @@ func TestModels_Unmarshal_Time(t *testing.T) {
 		t.Errorf("Expected time: %v  Actual time: %v", parsedTime, testModel.Time2.Time)
 	}
 
-	// Test workaround for issue #59 https://github.com/microsoft/azure-devops-go-api/issues/59
+	// Test workaround for issue #59 https://github.com/artbegolli/go-ado/issues/59
 	parsedTime59, err := time.Parse("2006-01-02T15:04:05.999999999", "2020-05-16T20:55:32.0116793")
 	if testModel.Time3.Time != parsedTime59 {
 		t.Errorf("Expected time: %v  Actual time: %v", parsedTime59, testModel.Time3.Time)

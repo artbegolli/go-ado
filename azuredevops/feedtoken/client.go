@@ -10,9 +10,10 @@ package feedtoken
 
 import (
 	"context"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
 	"net/http"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/google/uuid"
 )
 
 var ResourceAreaId, _ = uuid.Parse("cdeb6c7d-6b25-4d6f-b664-c2e3ede202e8")

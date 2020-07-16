@@ -9,13 +9,13 @@
 package build
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/core"
+	"github.com/artbegolli/go-ado/azuredevops/distributedtaskcommon"
+	"github.com/artbegolli/go-ado/azuredevops/git"
+	"github.com/artbegolli/go-ado/azuredevops/test"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/core"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/distributedtaskcommon"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/git"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/test"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )
 
 // Represents a queue for running builds.

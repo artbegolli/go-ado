@@ -9,8 +9,8 @@
 package search
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops/searchshared"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/searchshared"
 )
 
 // Defines the code result containing information of the searched files and its metadata.

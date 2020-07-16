@@ -17,11 +17,11 @@ import (
 	"net/url"
 	"strconv"
 
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/core"
+	"github.com/artbegolli/go-ado/azuredevops/policy"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/core"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/policy"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )
 
 var ResourceAreaId, _ = uuid.Parse("4e080c62-fa21-4fbc-8fef-2a10a2b38049")
@@ -270,7 +270,7 @@ func NewClient(ctx context.Context, connection *azuredevops.Connection) (Client,
 }
 
 func NewClientWithOptions(ctx context.Context, connection *azuredevops.Connection, options ...azuredevops.ClientOptionFunc) (Client, error) {
-	client, err := connection.GetClientByResourceAreaId(ctx, ResourceAreaId, options)
+	client, err := connection.GetClientByResourceAreaId(ctx, ResourceAreaId, options...)
 	if err != nil {
 		return nil, err
 	}

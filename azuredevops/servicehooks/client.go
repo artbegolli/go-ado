@@ -12,13 +12,14 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/forminput"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/notification"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/forminput"
+	"github.com/artbegolli/go-ado/azuredevops/notification"
+	"github.com/google/uuid"
 )
 
 type Client interface {
