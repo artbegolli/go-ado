@@ -9,10 +9,10 @@
 package work
 
 import (
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
+	"github.com/artbegolli/go-ado/azuredevops/workitemtracking"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/workitemtracking"
 )
 
 type Activity struct {

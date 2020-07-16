@@ -11,9 +11,9 @@ package licensing
 import (
 	"github.com/artbegolli/go-ado/azuredevops"
 	"github.com/artbegolli/go-ado/azuredevops/accounts"
+	"github.com/artbegolli/go-ado/azuredevops/commerce"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/commerce"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 )
 
 // License assigned to a user

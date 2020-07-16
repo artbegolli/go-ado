@@ -12,10 +12,10 @@ import (
 	"github.com/artbegolli/go-ado/azuredevops"
 	"github.com/artbegolli/go-ado/azuredevops/commerce"
 	"github.com/artbegolli/go-ado/azuredevops/graph"
+	"github.com/artbegolli/go-ado/azuredevops/licensing"
+	"github.com/artbegolli/go-ado/azuredevops/licensingrule"
+	"github.com/artbegolli/go-ado/azuredevops/operations"
 	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/licensing"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/licensingrule"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/operations"
 )
 
 type BaseOperationResult struct {

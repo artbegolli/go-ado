@@ -12,13 +12,14 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/licensingrule"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/licensingrule"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
+	"github.com/google/uuid"
 )
 
 var ResourceAreaId, _ = uuid.Parse("68ddce18-2501-45f1-a17b-7931a9922690")

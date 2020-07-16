@@ -12,14 +12,15 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/google/uuid"
-	"github.com/microsoft/azure-devops-go-api/azuredevops"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/profile"
-	"github.com/microsoft/azure-devops-go-api/azuredevops/webapi"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	"github.com/artbegolli/go-ado/azuredevops"
+	"github.com/artbegolli/go-ado/azuredevops/profile"
+	"github.com/artbegolli/go-ado/azuredevops/webapi"
+	"github.com/google/uuid"
 )
 
 var ResourceAreaId, _ = uuid.Parse("bb1e7ec9-e901-4b68-999a-de7012b920f8")
